@@ -1,0 +1,102 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: 'Pacifico', cursive;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+header {
+  background-color: #fdb1ca;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #d81b60;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero img {
+  max-width: 300px;
+  height: auto;
+}
+
+.flavors {
+  background-color: #f8bbd0;
+  padding: 2rem;
+}
+
+.flavors ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.flavors li {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.facts {
+  background-color: #ffe4f2;
+  padding: 2rem;
+  text-align: center;
+}
+
+.facts-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.facts-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.facts-list li {
+  margin: 0.75rem 0;
+}
+
+.facts-list a {
+  text-decoration: none;
+  color: #d81b60;
+  transition: color 0.3s ease;
+}
+
+.facts-list a:hover {
+  color: #880e4f;
+  text-decoration: underline;
+}
+
+
+
+footer {
+  background-color: #d4688c;
+  text-align: center;
+  padding: 1rem;
+}
+
+.home-page {
+  background-color: #ffe4f2; /* pastel light pink */
+}
+
+.page-background {
+  background-color: #ffe4f2; /* pastel light pink */
+}
