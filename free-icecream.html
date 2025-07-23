@@ -1,4 +1,4 @@
-<!-- free-icecream.html -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,6 +29,17 @@
       <p><em>(Trust us... it's worth it)</em></p>
     </section>
   </main>
+
+<div class="sprinkle-container"></div>
+
+<script>
+  const container = document.querySelector('.sprinkle-container');
+  for (let i = 1; i <= 70; i++) {
+    const sprinkle = document.createElement('div');
+    sprinkle.classList.add('sprinkle');
+    container.appendChild(sprinkle);
+  }
+</script>
 
   <footer>
     <p>Still want free ice cream? Join Hack Club Scoops </p>
